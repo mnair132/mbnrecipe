@@ -13,5 +13,5 @@ This app includes traditional as well as modern-day recipes of Indian cuisine.
 - 📡 Easily integrate recipes from Blogger or JSON feed
 
 ## Live Demo
-👉 [Click here to open the app](https://your-username.github.io/recipe-app/)
+👉 [Click here to open the app](https://github.com/mnair132/recipe-app/)
 
