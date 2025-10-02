@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kerala Recipe App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Kerala Recipe App</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="favorites.html">Favorites</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <input type="text" id="search" placeholder="Search recipes...">
+      <select id="categoryFilter">
+        <option value="all">All</option>
+        <option value="veg">Veg</option>
+        <option value="non-veg">Non-Veg</option>
+        <option value="breakfast">Breakfast</option>
+        <option value="snacks">Snacks</option>
+      </select>
+    </section>
+
+    <section id="recipe-list"></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
