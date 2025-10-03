@@ -1,5 +1,5 @@
 async function loadRecipes() {
-  const response = await fetch('recipes.json');
+  const response = await fetch('./recipes.json');
   const recipes = await response.json();
   displayRecipes(recipes);
 }
