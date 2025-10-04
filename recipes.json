@@ -1,86 +1,175 @@
 [
-  { 
-    "id": "1", 
-    "name": "Appam with Stew", 
-    "description": "Soft hoppers made from fermented rice batter, served with vegetable or chicken stew.", 
+  {
+    "id": "1",
+    "name": "Appam with Stew",
+    "description": "Soft hoppers made from fermented rice batter, served with vegetable or chicken stew.",
     "category": "Breakfast",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Appam_with_stew.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Appam_with_stew.jpg",
+    "ingredients": [
+      "2 cups rice",
+      "1/2 cup grated coconut",
+      "1 tsp sugar",
+      "1/2 tsp yeast",
+      "Salt to taste"
+    ],
+    "instructions": "Soak rice and grind with coconut. Add yeast and sugar, ferment overnight. Cook in appachatti. Serve hot with stew."
   },
-  { 
-    "id": "2", 
-    "name": "Puttu and Kadala Curry", 
-    "description": "Steamed rice flour with coconut layers, paired with black chickpea curry.", 
+  {
+    "id": "2",
+    "name": "Puttu and Kadala Curry",
+    "description": "Steamed rice flour with coconut layers, paired with black chickpea curry.",
     "category": "Breakfast",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Puttu_and_kadala_curry.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Puttu_and_kadala_curry.jpg",
+    "ingredients": [
+      "2 cups rice flour",
+      "1 cup grated coconut",
+      "1 cup black chickpeas",
+      "1 onion, chopped",
+      "Spices to taste"
+    ],
+    "instructions": "Steam rice flour with coconut in a puttu maker. Cook chickpeas with onion and spices for kadala curry. Serve together."
   },
-  { 
-    "id": "3", 
-    "name": "Idiyappam", 
-    "description": "String hoppers made from rice flour, usually served with curry or coconut milk.", 
+  {
+    "id": "3",
+    "name": "Idiyappam",
+    "description": "String hoppers made from rice flour, usually served with curry or coconut milk.",
     "category": "Breakfast",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Idiyappam.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Idiyappam.jpg",
+    "ingredients": [
+      "2 cups rice flour",
+      "1.5 cups hot water",
+      "Salt to taste"
+    ],
+    "instructions": "Mix rice flour with hot water to form dough. Press through idiyappam maker, steam until cooked. Serve with stew or curry."
   },
-  { 
-    "id": "4", 
-    "name": "Kerala Fish Curry", 
-    "description": "Spicy fish curry cooked with coconut and tamarind.", 
+  {
+    "id": "4",
+    "name": "Kerala Fish Curry",
+    "description": "Spicy fish curry cooked with coconut and tamarind.",
     "category": "Non-Veg",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Meen_curry.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Meen_curry.jpg",
+    "ingredients": [
+      "500g fish pieces",
+      "2 tbsp coconut oil",
+      "2 tsp chili powder",
+      "1 tsp turmeric",
+      "Tamarind pulp"
+    ],
+    "instructions": "Fry spices in coconut oil, add tamarind and water. Add fish pieces and simmer until cooked."
   },
-  { 
-    "id": "5", 
-    "name": "Chicken Roast", 
-    "description": "Kerala-style spicy chicken roast with coconut oil and curry leaves.", 
+  {
+    "id": "5",
+    "name": "Chicken Roast",
+    "description": "Kerala-style spicy chicken roast with coconut oil and curry leaves.",
     "category": "Non-Veg",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Kerala_Chicken_Roast.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Kerala_Chicken_Roast.jpg",
+    "ingredients": [
+      "1 kg chicken",
+      "2 onions",
+      "2 tsp chili powder",
+      "1 tsp garam masala",
+      "Curry leaves"
+    ],
+    "instructions": "Marinate chicken in spices, shallow fry in coconut oil, add onions and curry leaves, roast until dry."
   },
-  { 
-    "id": "6", 
-    "name": "Beef Ularthiyathu", 
-    "description": "Dry-fried beef with coconut slices, spices, and curry leaves.", 
+  {
+    "id": "6",
+    "name": "Beef Ularthiyathu",
+    "description": "Dry-fried beef with coconut slices, spices, and curry leaves.",
     "category": "Non-Veg",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Beef_ularthiyathu.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Beef_ularthiyathu.jpg",
+    "ingredients": [
+      "500g beef",
+      "Coconut slices",
+      "2 tsp black pepper",
+      "Curry leaves",
+      "Coconut oil"
+    ],
+    "instructions": "Cook beef with spices. Stir fry with coconut slices and curry leaves until dark and dry."
   },
-  { 
-    "id": "7", 
-    "name": "Vegetable Thoran", 
-    "description": "Dry stir-fried vegetables with grated coconut.", 
+  {
+    "id": "7",
+    "name": "Vegetable Thoran",
+    "description": "Dry stir-fried vegetables with grated coconut.",
     "category": "Veg",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Thoran.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Thoran.jpg",
+    "ingredients": [
+      "2 cups chopped vegetables",
+      "1 cup grated coconut",
+      "1 green chili",
+      "1 tsp mustard seeds"
+    ],
+    "instructions": "Fry mustard, chili, add vegetables and grated coconut. Stir fry until cooked but not mushy."
   },
-  { 
-    "id": "8", 
-    "name": "Avial", 
-    "description": "Mixed vegetables cooked with coconut and yogurt, seasoned with curry leaves.", 
+  {
+    "id": "8",
+    "name": "Avial",
+    "description": "Mixed vegetables cooked with coconut and yogurt, seasoned with curry leaves.",
     "category": "Veg",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Avial_kerala.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Avial_kerala.jpg",
+    "ingredients": [
+      "2 cups mixed vegetables",
+      "1 cup grated coconut",
+      "1 cup yogurt",
+      "Curry leaves"
+    ],
+    "instructions": "Cook vegetables with little water. Add ground coconut and yogurt mix, season with curry leaves."
   },
-  { 
-    "id": "9", 
-    "name": "Sambar", 
-    "description": "Traditional South Indian lentil and vegetable curry with tamarind.", 
+  {
+    "id": "9",
+    "name": "Sambar",
+    "description": "Traditional South Indian lentil and vegetable curry with tamarind.",
     "category": "Veg",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Sambar.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Sambar.jpg",
+    "ingredients": [
+      "1 cup toor dal",
+      "2 cups mixed vegetables",
+      "Tamarind pulp",
+      "Sambar powder"
+    ],
+    "instructions": "Cook dal, add tamarind, sambar powder, and vegetables. Boil until flavors blend."
   },
-  { 
-    "id": "10", 
-    "name": "Banana Chips", 
-    "description": "Crispy fried raw banana slices, a classic Kerala snack.", 
+  {
+    "id": "10",
+    "name": "Banana Chips",
+    "description": "Crispy fried raw banana slices, a classic Kerala snack.",
     "category": "Snacks",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kerala_Banana_Chips.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kerala_Banana_Chips.jpg",
+    "ingredients": [
+      "Raw bananas",
+      "Coconut oil",
+      "Salt"
+    ],
+    "instructions": "Peel bananas, slice thin, fry in coconut oil, sprinkle salt, and store airtight."
   },
-  { 
-    "id": "11", 
-    "name": "Unniyappam", 
-    "description": "Sweet rice flour fritters made with banana and jaggery.", 
+  {
+    "id": "11",
+    "name": "Unniyappam",
+    "description": "Sweet rice flour fritters made with banana and jaggery.",
     "category": "Snacks",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Unniyappam.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Unniyappam.jpg",
+    "ingredients": [
+      "1 cup rice flour",
+      "1 ripe banana",
+      "1/2 cup jaggery syrup",
+      "Cardamom powder"
+    ],
+    "instructions": "Mix rice flour, mashed banana, and jaggery syrup. Fry spoonfuls in oil until golden."
   },
-  { 
-    "id": "12", 
-    "name": "Parippu Vada", 
-    "description": "Crispy lentil fritters made with spiced chana dal.", 
+  {
+    "id": "12",
+    "name": "Parippu Vada",
+    "description": "Crispy lentil fritters made with spiced chana dal.",
     "category": "Snacks",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Parippu_vada.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Parippu_vada.jpg",
+    "ingredients": [
+      "1 cup chana dal",
+      "2 green chilies",
+      "1 onion",
+      "Ginger",
+      "Curry leaves"
+    ],
+    "instructions": "Soak chana dal, grind coarsely, mix with spices and onion. Shape into patties and deep fry."
   }
 ]
+
