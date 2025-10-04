@@ -5,14 +5,8 @@
     "description": "Soft hoppers made from fermented rice batter, served with vegetable or chicken stew.",
     "category": "Breakfast",
     "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Appam_with_stew.jpg",
-    "ingredients": [
-      "2 cups rice",
-      "1/2 cup grated coconut",
-      "1 tsp sugar",
-      "1/2 tsp yeast",
-      "Salt to taste"
-    ],
-    "instructions": "Soak rice and grind with coconut. Add yeast and sugar, ferment overnight. Cook in appachatti. Serve hot with stew."
+    "ingredients": ["2 cups rice", "1/2 cup grated coconut", "1 tsp sugar", "1/2 tsp yeast", "Salt"],
+    "instructions": "Soak rice and grind with coconut. Add yeast and sugar, ferment overnight. Cook in appachatti. Serve with stew."
   },
   {
     "id": "2",
@@ -20,14 +14,7 @@
     "description": "Spicy fish curry cooked with coconut and tamarind.",
     "category": "Non-Veg",
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Meen_curry.jpg",
-    "ingredients": [
-      "500g fish pieces",
-      "2 tbsp coconut oil",
-      "1 onion",
-      "1 tsp chili powder",
-      "1 tsp turmeric",
-      "Tamarind pulp"
-    ],
+    "ingredients": ["500g fish pieces", "2 tbsp coconut oil", "1 onion", "1 tsp chili powder", "1 tsp turmeric", "Tamarind pulp"],
     "instructions": "Fry onion in coconut oil, add spices, tamarind, and fish. Cook until done. Serve with rice."
   },
   {
@@ -44,63 +31,81 @@
     "name": "Chicken Roast",
     "description": "Kerala-style spicy chicken roast with coconut oil and curry leaves.",
     "category": "Non-Veg",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Kerala_Chicken_Roast.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Kerala_Chicken_Roast.jpg",
+    "ingredients": ["1 kg chicken", "Onions", "Chili powder", "Turmeric", "Coconut oil", "Curry leaves"],
+    "instructions": "Marinate chicken with spices, fry onions in coconut oil, add chicken and roast until dry."
   },
   {
     "id": "5",
     "name": "Beef Ularthiyathu",
     "description": "Dry-fried beef with coconut slices, spices, and curry leaves.",
     "category": "Non-Veg",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Beef_ularthiyathu.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Beef_ularthiyathu.jpg",
+    "ingredients": ["500g beef", "Coconut slices", "Onion", "Curry leaves", "Chili powder"],
+    "instructions": "Pressure cook beef with spices, then stir-fry with coconut slices and curry leaves."
   },
   {
     "id": "6",
     "name": "Vegetable Thoran",
     "description": "Dry stir-fried vegetables with grated coconut.",
     "category": "Veg",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Thoran.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Thoran.jpg",
+    "ingredients": ["Beans or cabbage", "Grated coconut", "Green chilies", "Turmeric", "Curry leaves"],
+    "instructions": "Chop vegetables, cook with coconut and spices on low flame until dry."
   },
   {
     "id": "7",
     "name": "Avial",
     "description": "Mixed vegetables cooked with coconut and yogurt, seasoned with curry leaves.",
     "category": "Veg",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Avial_kerala.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Avial_kerala.jpg",
+    "ingredients": ["Mixed vegetables", "Grated coconut", "Green chilies", "Curd", "Curry leaves"],
+    "instructions": "Cook vegetables, grind coconut with chilies, mix with curd and curry leaves."
   },
   {
     "id": "8",
     "name": "Sambar",
     "description": "Traditional South Indian lentil and vegetable curry with tamarind.",
     "category": "Veg",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Sambar.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Sambar.jpg",
+    "ingredients": ["Toor dal", "Tamarind", "Vegetables", "Sambar powder"],
+    "instructions": "Cook dal, add vegetables and tamarind water, simmer with sambar powder."
   },
   {
     "id": "9",
     "name": "Unniyappam",
     "description": "Sweet rice flour fritters made with banana and jaggery.",
     "category": "Snacks",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Unniyappam.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Unniyappam.jpg",
+    "ingredients": ["Rice flour", "Banana", "Jaggery", "Coconut bits", "Cardamom"],
+    "instructions": "Mix banana, jaggery, and rice flour. Fry small portions in appachatti until golden."
   },
   {
     "id": "10",
     "name": "Parippu Vada",
     "description": "Crispy lentil fritters made with spiced chana dal.",
     "category": "Snacks",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Parippu_vada.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Parippu_vada.jpg",
+    "ingredients": ["Chana dal", "Onion", "Chili", "Curry leaves"],
+    "instructions": "Soak dal, grind coarsely, mix with onion and chilies, deep fry till crispy."
   },
   {
     "id": "11",
     "name": "Puttu and Kadala Curry",
     "description": "Steamed rice flour cylinders with grated coconut, served with black chickpea curry.",
     "category": "Breakfast",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Puttu_with_kadala_curry.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Puttu_with_kadala_curry.jpg",
+    "ingredients": ["Rice flour", "Coconut", "Black chickpeas", "Onion", "Chili powder"],
+    "instructions": "Steam rice flour with coconut in puttu kutti. Serve with kadala curry."
   },
   {
     "id": "12",
     "name": "Palada Payasam",
     "description": "Traditional Kerala dessert made with rice ada, milk, and sugar.",
     "category": "Dessert",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Palada_pradhaman.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Palada_pradhaman.jpg",
+    "ingredients": ["Rice ada", "Milk", "Sugar", "Cardamom"],
+    "instructions": "Boil milk, add rice ada and sugar. Stir until thick and creamy."
   }
 ]
 
