@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Recipe Details</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; max-width: 700px; margin: auto; }
+    img { width: 100%; border-radius: 8px; margin-bottom: 15px; }
+    h1 { margin-bottom: 10px; }
+    ul { margin-bottom: 20px; }
+    button { padding: 10px; margin-top: 10px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div id="recipe-details"></div>
+
+  <button onclick="exportPDF()">Export as PDF</button>
+  <button onclick="window.history.back()">Back</button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script>
+    async function loadRecipe() {
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get("id");
+
+      const response = await fetch("recipes.json");
+      const recipes = await response.json();
+      const recipe = recipes.find(r => r.id === id);
+
+      if (!recipe) {
+        document.getElementById("recipe-details").innerHTML = "<p>Recipe not found!</p>";
+        return;
+      }
+
+      document.getElementById("recipe-details").innerHTML = `
+        <h1>${recipe.name}</h1>
+        <img src="${recipe.image}" alt="${recipe.name}">
+        <p>${recipe.description}</p>
+        <h3>Ingredients</h3>
+        <ul>${recipe.ingredients.map(i => `<li>${i}</li>`).join("")}</ul>
+        <h3>Instructions</h3>
+        <p>${recipe.instructions}</p>
+      `;
+
+      window.recipe = recipe; // Save for PDF export
+    }
+
+    function exportPDF() {
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF();
+
+      doc.setFontSize(16);
+      doc.text(window.recipe.name, 10, 20);
+
+      doc.setFontSize(12);
+      doc.text("Description:", 10, 35);
+      doc.text(window.recipe.description, 10, 45, { maxWidth: 180 });
+
+      doc.text("Ingredients:", 10, 65);
+      window.recipe.ingredients.forEach((i, idx) => {
+        doc.text(`- ${i}`, 15, 75 + idx * 10);
+      });
+
+      doc.text("Instructions:", 10, 120);
+      doc.text(window.recipe.instructions, 10, 130, { maxWidth: 180 });
+
+      doc.save(`${window.recipe.name}.pdf`);
+    }
+
+    loadRecipe();
+  </script>
+</body>
+</html>
