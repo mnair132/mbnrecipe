@@ -4,19 +4,6 @@ async function loadRecipes() {
   displayRecipes(recipes);
 }
 
-card.innerHTML = `
-  <img src="${recipe.image}" alt="${recipe.name}" style="width:100%; border-radius:8px; margin-bottom:10px;">
-  <h3>${recipe.name}</h3>
-  <p>${recipe.description}</p>
-  <button onclick="addToFavorites('${recipe.id}')">Add to Favorites</button>
-  <button onclick="viewRecipe('${recipe.id}')">View Recipe</button>
-`;
-
-function viewRecipe(id) {
-  // Redirect to recipe.html with ID
-  window.location.href = `recipe.html?id=${id}`;
-}
-
 function displayRecipes(recipes) {
   const list = document.getElementById('recipe-list');
   list.innerHTML = '';
@@ -30,9 +17,11 @@ function displayRecipes(recipes) {
       const card = document.createElement('div');
       card.className = 'recipe-card';
       card.innerHTML = `
+        <img src="${recipe.image}" alt="${recipe.name}" style="width:100%; border-radius:8px; margin-bottom:10px;">
         <h3>${recipe.name}</h3>
         <p>${recipe.description}</p>
         <button onclick="addToFavorites('${recipe.id}')">Add to Favorites</button>
+        <button onclick="viewRecipe('${recipe.id}')">View Recipe</button>
       `;
       list.appendChild(card);
     });
@@ -46,6 +35,17 @@ function addToFavorites(id) {
     alert('Recipe added to favorites!');
   }
 }
+
+function viewRecipe(id) {
+  // Redirect to recipe.html with ID
+  window.location.href = `recipe.html?id=${id}`;
+}
+
+document.getElementById('search').addEventListener('input', loadRecipes);
+document.getElementById('categoryFilter').addEventListener('change', loadRecipes);
+
+loadRecipes();
+
 
 document.getElementById('search').addEventListener('input', loadRecipes);
 document.getElementById('categoryFilter').addEventListener('change', loadRecipes);
