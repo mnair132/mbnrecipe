@@ -1,6 +1,6 @@
 [
-  { "id": "1", "name": "Appam with Stew", "description": "Traditional Kerala breakfast dish.", "category": "breakfast" },
-  { "id": "2", "name": "Kerala Fish Curry", "description": "Spicy fish curry with coconut.", "category": "non-veg" },
-  { "id": "3", "name": "Vegetable Thoran", "description": "Stir-fried veggies with coconut.", "category": "veg" },
-  { "id": "4", "name": "Banana Chips", "description": "Crispy fried raw banana chips.", "category": "snacks" }
+  { "id": "1", "name": "Appam with Stew", "description": "Traditional Kerala breakfast dish.", "category": "Breakfast" },
+  { "id": "2", "name": "Kerala Fish Curry", "description": "Spicy fish curry with coconut.", "category": "Non-Veg" },
+  { "id": "3", "name": "Vegetable Thoran", "description": "Stir-fried veggies with coconut.", "category": "Veg" },
+  { "id": "4", "name": "Banana Chips", "description": "Crispy fried raw banana chips.", "category": "Snacks" }
 ]
