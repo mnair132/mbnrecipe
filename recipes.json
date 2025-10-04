@@ -1,6 +1,14 @@
 [
-  { "id": "1", "name": "Appam with Stew", "description": "Traditional Kerala breakfast dish.", "category": "Breakfast" },
-  { "id": "2", "name": "Kerala Fish Curry", "description": "Spicy fish curry with coconut.", "category": "Non-Veg" },
-  { "id": "3", "name": "Vegetable Thoran", "description": "Stir-fried veggies with coconut.", "category": "Veg" },
-  { "id": "4", "name": "Banana Chips", "description": "Crispy fried raw banana chips.", "category": "Snacks" }
+  { "id": "1", "name": "Appam with Stew", "description": "Soft hoppers made from fermented rice batter, served with vegetable or chicken stew.", "category": "Breakfast" },
+  { "id": "2", "name": "Puttu and Kadala Curry", "description": "Steamed rice flour with coconut layers, paired with black chickpea curry.", "category": "Breakfast" },
+  { "id": "3", "name": "Idiyappam", "description": "String hoppers made from rice flour, usually served with curry or coconut milk.", "category": "Breakfast" },
+  { "id": "4", "name": "Kerala Fish Curry", "description": "Spicy fish curry cooked with coconut and tamarind.", "category": "Non-Veg" },
+  { "id": "5", "name": "Chicken Roast", "description": "Kerala-style spicy chicken roast with coconut oil and curry leaves.", "category": "Non-Veg" },
+  { "id": "6", "name": "Beef Ularthiyathu", "description": "Dry-fried beef with coconut slices, spices, and curry leaves.", "category": "Non-Veg" },
+  { "id": "7", "name": "Vegetable Thoran", "description": "Dry stir-fried vegetables with grated coconut.", "category": "Veg" },
+  { "id": "8", "name": "Avial", "description": "Mixed vegetables cooked with coconut and yogurt, seasoned with curry leaves.", "category": "Veg" },
+  { "id": "9", "name": "Sambar", "description": "Traditional South Indian lentil and vegetable curry with tamarind.", "category": "Veg" },
+  { "id": "10", "name": "Banana Chips", "description": "Crispy fried raw banana slices, a classic Kerala snack.", "category": "Snacks" },
+  { "id": "11", "name": "Unniyappam", "description": "Sweet rice flour fritters made with banana and jaggery.", "category": "Snacks" },
+  { "id": "12", "name": "Parippu Vada", "description": "Crispy lentil fritters made with spiced chana dal.", "category": "Snacks" }
 ]
