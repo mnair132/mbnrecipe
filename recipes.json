@@ -1,14 +1,86 @@
 [
-  { "id": "1", "name": "Appam with Stew", "description": "Soft hoppers made from fermented rice batter, served with vegetable or chicken stew.", "category": "Breakfast" },
-  { "id": "2", "name": "Puttu and Kadala Curry", "description": "Steamed rice flour with coconut layers, paired with black chickpea curry.", "category": "Breakfast" },
-  { "id": "3", "name": "Idiyappam", "description": "String hoppers made from rice flour, usually served with curry or coconut milk.", "category": "Breakfast" },
-  { "id": "4", "name": "Kerala Fish Curry", "description": "Spicy fish curry cooked with coconut and tamarind.", "category": "Non-Veg" },
-  { "id": "5", "name": "Chicken Roast", "description": "Kerala-style spicy chicken roast with coconut oil and curry leaves.", "category": "Non-Veg" },
-  { "id": "6", "name": "Beef Ularthiyathu", "description": "Dry-fried beef with coconut slices, spices, and curry leaves.", "category": "Non-Veg" },
-  { "id": "7", "name": "Vegetable Thoran", "description": "Dry stir-fried vegetables with grated coconut.", "category": "Veg" },
-  { "id": "8", "name": "Avial", "description": "Mixed vegetables cooked with coconut and yogurt, seasoned with curry leaves.", "category": "Veg" },
-  { "id": "9", "name": "Sambar", "description": "Traditional South Indian lentil and vegetable curry with tamarind.", "category": "Veg" },
-  { "id": "10", "name": "Banana Chips", "description": "Crispy fried raw banana slices, a classic Kerala snack.", "category": "Snacks" },
-  { "id": "11", "name": "Unniyappam", "description": "Sweet rice flour fritters made with banana and jaggery.", "category": "Snacks" },
-  { "id": "12", "name": "Parippu Vada", "description": "Crispy lentil fritters made with spiced chana dal.", "category": "Snacks" }
+  { 
+    "id": "1", 
+    "name": "Appam with Stew", 
+    "description": "Soft hoppers made from fermented rice batter, served with vegetable or chicken stew.", 
+    "category": "Breakfast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Appam_with_stew.jpg"
+  },
+  { 
+    "id": "2", 
+    "name": "Puttu and Kadala Curry", 
+    "description": "Steamed rice flour with coconut layers, paired with black chickpea curry.", 
+    "category": "Breakfast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Puttu_and_kadala_curry.jpg"
+  },
+  { 
+    "id": "3", 
+    "name": "Idiyappam", 
+    "description": "String hoppers made from rice flour, usually served with curry or coconut milk.", 
+    "category": "Breakfast",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Idiyappam.jpg"
+  },
+  { 
+    "id": "4", 
+    "name": "Kerala Fish Curry", 
+    "description": "Spicy fish curry cooked with coconut and tamarind.", 
+    "category": "Non-Veg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Meen_curry.jpg"
+  },
+  { 
+    "id": "5", 
+    "name": "Chicken Roast", 
+    "description": "Kerala-style spicy chicken roast with coconut oil and curry leaves.", 
+    "category": "Non-Veg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Kerala_Chicken_Roast.jpg"
+  },
+  { 
+    "id": "6", 
+    "name": "Beef Ularthiyathu", 
+    "description": "Dry-fried beef with coconut slices, spices, and curry leaves.", 
+    "category": "Non-Veg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Beef_ularthiyathu.jpg"
+  },
+  { 
+    "id": "7", 
+    "name": "Vegetable Thoran", 
+    "description": "Dry stir-fried vegetables with grated coconut.", 
+    "category": "Veg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Thoran.jpg"
+  },
+  { 
+    "id": "8", 
+    "name": "Avial", 
+    "description": "Mixed vegetables cooked with coconut and yogurt, seasoned with curry leaves.", 
+    "category": "Veg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Avial_kerala.jpg"
+  },
+  { 
+    "id": "9", 
+    "name": "Sambar", 
+    "description": "Traditional South Indian lentil and vegetable curry with tamarind.", 
+    "category": "Veg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Sambar.jpg"
+  },
+  { 
+    "id": "10", 
+    "name": "Banana Chips", 
+    "description": "Crispy fried raw banana slices, a classic Kerala snack.", 
+    "category": "Snacks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kerala_Banana_Chips.jpg"
+  },
+  { 
+    "id": "11", 
+    "name": "Unniyappam", 
+    "description": "Sweet rice flour fritters made with banana and jaggery.", 
+    "category": "Snacks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Unniyappam.jpg"
+  },
+  { 
+    "id": "12", 
+    "name": "Parippu Vada", 
+    "description": "Crispy lentil fritters made with spiced chana dal.", 
+    "category": "Snacks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Parippu_vada.jpg"
+  }
 ]
