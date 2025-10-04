@@ -3,6 +3,12 @@ async function loadRecipes() {
   const recipes = await response.json();
   displayRecipes(recipes);
 }
+card.innerHTML = `
+  <img src="${recipe.image}" alt="${recipe.name}" style="width:100%; border-radius:8px; margin-bottom:10px;">
+  <h3>${recipe.name}</h3>
+  <p>${recipe.description}</p>
+  <button onclick="addToFavorites('${recipe.id}')">Add to Favorites</button>
+`;
 
 function displayRecipes(recipes) {
   const list = document.getElementById('recipe-list');
