@@ -58,7 +58,7 @@
     "name": "Avial",
     "description": "Mixed vegetables cooked with coconut and yogurt, seasoned with curry leaves.",
     "category": "Veg",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Avial_kerala.jpg",
+    "image": "mbn25suravial.jpg",
     "ingredients": ["Mixed vegetables", "Grated coconut", "Green chilies", "Curd", "Curry leaves"],
     "instructions": "Cook vegetables, grind coconut with chilies, mix with curd and curry leaves."
   },
@@ -94,7 +94,7 @@
     "name": "Puttu and Kadala Curry",
     "description": "Steamed rice flour cylinders with grated coconut, served with black chickpea curry.",
     "category": "Breakfast",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Puttu_with_kadala_curry.jpg",
+    "image": "puttum kadala curry.jpg",
     "ingredients": ["Rice flour", "Coconut", "Black chickpeas", "Onion", "Chili powder"],
     "instructions": "Steam rice flour with coconut in puttu kutti. Serve with kadala curry."
   },
@@ -103,7 +103,7 @@
     "name": "Palada Payasam",
     "description": "Traditional Kerala dessert made with rice ada, milk, and sugar.",
     "category": "Dessert",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Palada_pradhaman.jpg",
+    "image": "adapayasamgheer.jpg",
     "ingredients": ["Rice ada", "Milk", "Sugar", "Cardamom"],
     "instructions": "Boil milk, add rice ada and sugar. Stir until thick and creamy."
   }
