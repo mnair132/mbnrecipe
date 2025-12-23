@@ -28,12 +28,12 @@
   },
   {
     "id": "4",
-    "name": "Chicken Roast",
+    "name": "Chicken Fry with Pepper",
     "description": "Kerala-style spicy chicken roast with coconut oil and curry leaves.",
     "category": "Non-Veg",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Kerala_Chicken_Roast.jpg",
-    "ingredients": ["1 kg chicken", "Onions", "Chili powder", "Turmeric", "Coconut oil", "Curry leaves"],
-    "instructions": "Marinate chicken with spices, fry onions in coconut oil, add chicken and roast until dry."
+    "image": "nv01kozhi_varavu.jpg",
+    "ingredients": ["1 kg chicken", "Onions", "Chili powder", "pepper powder" "Turmeric", "Coconut oil", "Curry leaves"],
+    "instructions": "Marinate chicken with spices, fry onions in coconut oil, add chicken and fry until dry."
   },
   {
     "id": "5",
