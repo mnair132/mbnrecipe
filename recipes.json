@@ -8,15 +8,7 @@
     "ingredients": ["2 cups rice", "1/2 cup grated coconut", "1 tsp sugar", "1/2 tsp yeast", "Salt"],
     "instructions": "Soak rice and grind with coconut. Add yeast and sugar, ferment overnight. Cook in appachatti. Serve with stew."
   },
-  {
-    "id": "2",
-    "name": "Kerala Fish Curry",
-    "description": "Spicy fish curry cooked with coconut and tamarind.",
-    "category": "Non-Veg",
-    "image": "meen curry.jpg",
-    "ingredients": ["500g fish pieces", "2 tbsp coconut oil", "1 onion", "1 tsp chili powder", "1 tsp turmeric", "Tamarind pulp"],
-    "instructions": "Fry onion in coconut oil, add spices, tamarind, and fish. Cook until done. Serve with rice."
-  },
+  
   {
     "id": "3",
     "name": "Banana Chips",
@@ -26,24 +18,8 @@
     "ingredients": ["Raw bananas", "Coconut oil", "Salt"],
     "instructions": "Peel bananas, slice thin, deep fry in coconut oil until golden. Sprinkle salt and store airtight."
   },
-  {
-    "id": "4",
-    "name": "Chicken Fry with Pepper",
-    "description": "Kerala-style spicy chicken roast with coconut oil and curry leaves.",
-    "category": "Non-Veg",
-    "image": "nv01kozhi_varavu.jpg",
-    "ingredients": ["1 kg chicken", "Onions", "Chili powder", "pepper powder" "Turmeric", "Coconut oil", "Curry leaves"],
-    "instructions": "Marinate chicken with spices, fry onions in coconut oil, add chicken and fry until dry."
-  },
-  {
-    "id": "5",
-    "name": "Beef Ularthiyathu",
-    "description": "Dry-fried beef with coconut slices, spices, and curry leaves.",
-    "category": "Non-Veg",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Beef_ularthiyathu.jpg",
-    "ingredients": ["500g beef", "Coconut slices", "Onion", "Curry leaves", "Chili powder"],
-    "instructions": "Pressure cook beef with spices, then stir-fry with coconut slices and curry leaves."
-  },
+ 
+  
   {
     "id": "6",
     "name": "Vegetable Thoran",
